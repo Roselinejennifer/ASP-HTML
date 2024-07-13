@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Theme Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        h2, h3 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .description, .container {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        /* Flexbox styles */
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f7f9fb;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .flex-container > div {
+            width: 30%;
+            padding: 20px;
+            background-color: #ecf0f1;
+            text-align: center;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Grid styles */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            background-color: #f7f9fb;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .grid-container > div {
+            padding: 20px;
+            background-color: #ecf0f1;
+            text-align: center;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* General styles */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: white;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>School Theme Layout</h1>
+    <p>Welcome to Our School</p>
+</div>
+
+<div class="description">
+    <h3>About Our School</h3>
+    <p>Our school is committed to providing quality education and fostering a positive learning environment.</p>
+</div>
+
+<div class="container">
+    <h3>Flexbox Layout - Subjects</h3>
+    <div class="flex-container">
+        <div>
+            <h4>Mathematics</h4>
+            <p>Learn about numbers, equations, and logic.</p>
+        </div>
+        <div>
+            <h4>Science</h4>
+            <p>Explore the world of biology, chemistry, and physics.</p>
+        </div>
+        <div>
+            <h4>History</h4>
+            <p>Understand the events and cultures of the past.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h3>Grid Layout - Classrooms</h3>
+    <div class="grid-container">
+        <div>
+            <h4>Classroom 1</h4>
+            <p>Grade 1 - Grade 2</p>
+        </div>
+        <div>
+            <h4>Classroom 2</h4>
+            <p>Grade 3 - Grade 4</p>
+        </div>
+        <div>
+            <h4>Classroom 3</h4>
+            <p>Grade 5 - Grade 6</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('computer.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    h1 {
+      color: rgb(224, 123, 136);
+      text-align: center;
+    }
+    p {
+      color: darkslategray;
+    }
+    div {
+      padding: 20px 30px;
+      background-color: rgba(173, 216, 230, 0.8); 
+      margin-top: 20px;
+    }
+    .highlight {
+      color: yellow;
+    }
+    #unique {
+      font-style: italic;
+    }
+    p:hover {
+      color: darkorange;
+    }
+    p::first-letter {
+      font-size: 200%;
+      color: navy;
+    }
+    a {
+      color: rgb(231, 231, 238);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a[target="_blank"] {
+      color: darkred;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Exploring Computers</h1>
+<p style="font-size: 18px;">Computers are <span class="highlight">powerful</span> tools that have revolutionized the way we live and work.</p>
+
+<div>
+  <p>From early machines to modern day laptops and smartphones, the evolution of computers has been remarkable.</p>
+  <p id="unique">Today, computers are an integral part of our daily lives, used for a variety of tasks such as communication, entertainment, education, and work.</p>
+</div>
+
+<a href="https://www.example.com" target="_self">Learn more about the history of computers</a><br>
+<a href="https://www.example.com" target="_blank">Open in a new tab</a><br>
+<a href="https://www.example.com" target="_parent">Open in the parent frame</a><br>
+<a href="https://www.example.com" target="_top">Open in the full body of the window</a>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-image: url('nature2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1 {
+    color: green;
+    text-align: center;
+  }
+  p {
+    color: darkgreen;
+  }
+  .highlight {
+    color: yellow;
+  }
+  #unique {
+    font-style: italic;
+  }
+  p:hover {
+    color: darkorange;
+  }
+  p::first-letter {
+    font-size: 200%;
+    color: green;
+  }
+  a[target="_blank"] {
+    color: darkblue;
+  }
+  div {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    background-color: rgba(144, 238, 144, 0.8); 
+    margin-top: 20px;
+  }
+  
+  
+

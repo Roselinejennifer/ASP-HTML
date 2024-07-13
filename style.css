@@ -1,0 +1,41 @@
+body {
+    background-image: url('computer.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1 {
+    color: rgb(224, 123, 136);;
+    text-align: center;
+  }
+  p {
+    color: darkslategray;
+  }
+  .highlight {
+    color: yellow;
+  }
+  #unique {
+    font-style: italic;
+  }
+  p:hover {
+    color: darkorange;
+  }
+  p::first-letter {
+    font-size: 200%;
+    color: navy;
+  }
+  a {
+    color: rgb(225, 225, 234);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a[target="_blank"] {
+    color: darkred;
+  }
+  div {
+    padding: 20px 30px;
+    background-color: rgba(173, 216, 230, 0.8);
+    margin-top: 20px;
+  }
